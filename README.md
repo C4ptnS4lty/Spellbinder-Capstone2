@@ -18,6 +18,8 @@ Javascript-
 API-Scryfall-
     I love Magic the Gathering, its helped me bond with people at work and this API is amazing and free! The app may slow down at times due to the limit of ten requests a second, but thats perfect for now. It helped fill in the grunt work for the autofill, and provide all the details I needed for every card in Magic. Given more practice, I feel i could have included more than just displaying prices of cards on their page, but linked to websites to purchase said cards.
 
+    https://scryfall.com/docs/api
+
 SQL-Postgres-
     This was probably one of the most intensive parts, not just creating the tables, but creating an entire database to manage users and decks along with authentication and removal. the key aspects are found in the database folder. but they include:
     -Bcrypt encryption

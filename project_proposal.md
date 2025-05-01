@@ -58,7 +58,7 @@
 |            | your users?                                | technically savvy and therefore ease of use and      |
 |            |                                            | efficiency is important.                             |
 | ---------- | ------------------------------------------ | ---------------------------------------------------- |
-| Data       | What data do you plan on using? How are you| Data Sources: https://mtgjson.com/                   |
+| Data       | What data do you plan on using? How are you| Data Sources: https://scryfall.com/docs/api          |
 |            | planning on collecting your data?          | Data to Collect: Mtg Card data, user decks, favorites|
 |            |                                            | Method: API requests and SQL for internal data       |
 | ---------- | ------------------------------------------ | ---------------------------------------------------- |
