@@ -1,0 +1,96 @@
+.cardPage {
+    margin: 5%;
+}
+h1 {
+    border-bottom: solid;
+    padding: 5px;
+}
+.header {
+    display: flex;
+    margin: 1%;
+    width: 100%;
+}
+
+.card-container {
+    display: flex;
+    position: relative;
+    min-width: 20%;
+    size: auto;
+}
+.basicInfo {
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
+    width: 100%;
+}
+li {
+    display: inline-block;
+    width: auto;
+    margin:1%;
+}
+.formats {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    max-height: 30%;
+    width: 250%;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-color:antiquewhite;
+    background-size: cover;
+    border-radius: 2%;
+    border-style: solid;
+    border-color: black;
+    margin: 1%;
+}
+.format-title {
+    position: absolute;
+    top: 1%;
+    width: 100%;
+    border-bottom: dotted;
+}
+.legal {
+    padding: 2px;
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: green;
+    background-color: rgb(195, 244, 195);
+}
+.not-legal {
+    padding: 2px;
+    border-color: red;
+    background-color: rgb(237, 176, 176);
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 5px;
+}
+.prints-title {
+    position: absolute;
+    top: 1%;
+    width: 100%;
+    border-bottom: dotted;
+}
+.prints-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 250%;
+    max-height: fit-content;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color:antiquewhite;
+    background-size: cover;
+    border-radius: 2%;
+    border-style: solid;
+    border-color: black;
+    margin: 1%;
+}
+.prints-grid {
+    flex-flow: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}

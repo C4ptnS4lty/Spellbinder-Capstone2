@@ -1,0 +1,62 @@
+.doubleSidedCard {
+    position: relative;
+    width: 350px;
+    height: 490px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../assets/card-border.png);
+    background-size: cover;
+    border-radius: 4%;
+}
+.card-container {
+    display: flex;
+    width: 350px;
+    height: 490px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background: url(../assets/card-border.png);
+    background-size: cover;
+    border-radius: 4%;
+}
+.card-image {
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    transition: opacity 1s ease-in-out;
+    transition: transform 0.6s ease-in-out; /* Smooth flip */
+    border-radius: 5%;
+}
+.card-image.back {
+    opacity: 0; /* Start hidden */
+}
+.doubleSidedCard.flipped .card-image.front {
+    opacity: 0; /* Hide front */
+}
+.doubleSidedCard.flipped .card-image.back {
+    opacity: 1; /* Show back */
+}
+.rotate-icon {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 10;
+    opacity: 50%;
+    width: 50px;
+}
+.addOrRem-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    width: 40px;
+    opacity: 50%;
+}
+.rotate-icon:hover {
+    opacity: 100%;
+}
+.add-button:hover {
+    opacity: 100%;
+}
