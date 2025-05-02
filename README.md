@@ -52,10 +52,10 @@ Now for an explanation of each route:
 ### Documents to finish
 - [x] Initial_project_Ideas.md
 - [x] project_proposal.md
-- [ ] ReadMe.md refinement 
+- [x] ReadMe.md refinement 
 - [x] Database Schema.md
 
-### Code to implement
+### Code to implement in Future
 - [ ] Fix Error Saving Deck Notifications
 - [ ] Allow editing of deck by user/owner
 - [ ] Redirect after register or login

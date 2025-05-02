@@ -3,21 +3,15 @@
 ## Database Schema: 
 - Users
 - Decks
-- Favorites
 - Deck/Users
-- Favorites/Users
-- combos
-- Formats
     (If necessary, creating multiple tables for each format and then making them accessible through a handler).
 
 ## API Issues: 
 - Massive list of ever expanding cards, making displaying a broad search hard without either sacrificing speed or segmenting the loading into sections.
 - Sensitive Information: User login credentials, will use bcrypt to hide sensitive information and jsonwebtokens to identify the backend or frontend requests are not being manipulated.
 
-## Functionality: 
-
 ### Events: 
-- Decks -> users can create decks by searching a card and hitting a plus sign, which will drop down a menu to add to an inventory of cards. That inventory can then be added to an existing deck, made into a new deck, or adjusted to remove cards first.
+- Decks -> users can create decks by searching a card and hitting a plus sign, which will drop down a menu to add to an inventory of cards. That inventory can then be made into a new deck, or adjusted to remove cards first.
 - Formats -> Decks will be checked to see which formats, such as standard or EDH, that they are legal in. Users can select a format to see what specifically they need to add or remove for the deck to be legal in the selected format.
 
 ### User Flow: 
